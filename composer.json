@@ -1,0 +1,26 @@
+{
+    "name": "testingallthethings/042-pest",
+    "description": "Demostration of the PHP Test Driven Development Framework PEST",
+    "type": "project",
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Testingallthethings\\042Pest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Bradley",
+            "email": "braddle@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
